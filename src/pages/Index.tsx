@@ -48,7 +48,7 @@ const Index = () => {
             <div className="mb-8 flex justify-center">
               <div className="relative">
                 <img 
-                  src="https://cdn.poehali.dev/files/3ab3dcdb-7194-4a6d-acd6-552ec22d7310.jpeg" 
+                  src="https://cdn.poehali.dev/files/af56435b-f44d-4a13-a678-05f1fadda37c.jpg" 
                   alt="Молодожены" 
                   className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-2xl"
                 />
@@ -60,7 +60,7 @@ const Index = () => {
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
-            <p className="text-black font-bold text-3xl"
+            <p className="text-black font-thin text-4xl"
                style={{ fontFamily: "'Great Vibes', cursive" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
@@ -133,7 +133,7 @@ const Index = () => {
             <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
                 <Icon name="Shirt" size={48} className="text-green-800 mx-auto mb-4" />
-                <h3 className="text-3xl text-black mb-6 font-bold"
+                <h3 className="text-4xl text-black mb-6 font-thin"
                     style={{ fontFamily: "'Great Vibes', cursive" }}>
                   Дресс-код
                 </h3>
@@ -154,7 +154,7 @@ const Index = () => {
             <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
                 <Icon name="Gift" size={48} className="text-green-800 mx-auto mb-4" />
-                <h3 className="text-3xl text-black mb-6 font-bold"
+                <h3 className="text-4xl text-black mb-6 font-thin"
                     style={{ fontFamily: "'Great Vibes', cursive" }}>
                   О подарках
                 </h3>
@@ -178,7 +178,7 @@ const Index = () => {
       <section className="py-20 px-6 relative">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl text-black mb-4 font-bold"
+            <h2 className="text-5xl text-black mb-4 font-thin"
                 style={{ fontFamily: "'Great Vibes', cursive" }}>
               Подтверждение участия
             </h2>
