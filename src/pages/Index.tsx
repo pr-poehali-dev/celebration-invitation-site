@@ -22,7 +22,7 @@ const Index = () => {
   return (
     <div className="min-h-screen relative" style={{
       fontFamily: "'Comfortaa', sans-serif",
-      backgroundImage: `url('https://cdn.poehali.dev/files/a60c5f2d-7b2c-4a6e-8bff-d17c6cdf40a8.jpg')`,
+      backgroundImage: `url('https://cdn.poehali.dev/files/0ab15cd7-a95a-44a4-b265-1ce743a12588.png')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
