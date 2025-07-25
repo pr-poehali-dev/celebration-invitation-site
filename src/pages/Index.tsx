@@ -73,7 +73,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Date & Time */}
-            <Card className="bg-amber-50/90 backdrop-blur-md border-amber-200/50 hover:border-amber-300/70 transition-all duration-300 shadow-xl hover:shadow-2xl rounded-xl">
+            <Card className="bg-white/95 backdrop-blur-md border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-xl hover:shadow-2xl rounded-xl">
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
                   <Icon name="Calendar" size={48} className="text-green-800 mx-auto mb-4" />
@@ -96,7 +96,7 @@ const Index = () => {
             </Card>
 
             {/* Location */}
-            <Card className="bg-amber-50/90 backdrop-blur-md border-amber-200/50 hover:border-amber-300/70 transition-all duration-300 shadow-xl hover:shadow-2xl rounded-xl">
+            <Card className="bg-white/95 backdrop-blur-md border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-xl hover:shadow-2xl rounded-xl">
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
                   <Icon name="MapPin" size={48} className="text-green-800 mx-auto mb-4" />
@@ -130,7 +130,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Dress Code */}
-            <div className="text-center bg-amber-50/85 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
+            <div className="text-center bg-white/95 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
                 <Icon name="Shirt" size={48} className="text-green-800 mx-auto mb-4" />
                 <h3 className="text-4xl text-black mb-6 font-thin"
@@ -151,7 +151,7 @@ const Index = () => {
             </div>
 
             {/* Gift Info */}
-            <div className="text-center bg-amber-50/85 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
+            <div className="text-center bg-white/95 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
                 <Icon name="Gift" size={48} className="text-green-800 mx-auto mb-4" />
                 <h3 className="text-4xl text-black mb-6 font-thin"
@@ -185,7 +185,7 @@ const Index = () => {
 
           </div>
 
-          <Card className="bg-amber-50/90 backdrop-blur-md border-amber-200/50 shadow-2xl rounded-xl">
+          <Card className="bg-white/95 backdrop-blur-md border-slate-200 shadow-2xl rounded-xl">
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
@@ -198,7 +198,7 @@ const Index = () => {
                       id="name"
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="bg-amber-50/80 border-amber-200 text-black focus:border-amber-400 focus:ring-amber-400/20 font-semibold rounded-lg"
+                      className="bg-white/95 border-slate-200 text-black focus:border-slate-400 focus:ring-slate-400/20 font-semibold rounded-lg"
                       style={{ fontFamily: "'Comfortaa', sans-serif" }}
                       required
                     />
@@ -213,7 +213,7 @@ const Index = () => {
                       type="email"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="bg-amber-50/80 border-amber-200 text-black focus:border-amber-400 focus:ring-amber-400/20 font-semibold rounded-lg"
+                      className="bg-white/95 border-slate-200 text-black focus:border-slate-400 focus:ring-slate-400/20 font-semibold rounded-lg"
                       style={{ fontFamily: "'Comfortaa', sans-serif" }}
                       required
                     />
@@ -229,7 +229,7 @@ const Index = () => {
                     id="attendance"
                     value={formData.attendance}
                     onChange={(e) => setFormData({...formData, attendance: e.target.value})}
-                    className="w-full bg-amber-50/80 border border-amber-200 text-black rounded-lg px-3 py-2 focus:border-amber-400 focus:ring-amber-400/20 font-semibold"
+                    className="w-full bg-white/95 border border-slate-200 text-black rounded-lg px-3 py-2 focus:border-slate-400 focus:ring-slate-400/20 font-semibold"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}
                     required
                   >
@@ -257,7 +257,7 @@ const Index = () => {
                 <div className="text-center pt-6">
                   <Button
                     type="submit"
-                    className="bg-gradient-to-r from-amber-700 to-amber-600 text-white font-bold px-6 py-3 rounded-full hover:from-amber-800 hover:to-amber-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm leading-tight max-w-xs mx-auto border-2 border-amber-800/20"
+                    className="bg-transparent border-2 border-black text-black font-bold px-6 py-3 rounded-full hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm leading-tight max-w-xs mx-auto"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}
                   >
                     Отправить<br />подтверждение
@@ -271,7 +271,7 @@ const Index = () => {
 
       {/* Contact Section */}
       <section className="py-16 px-6 relative">
-        <div className="max-w-2xl mx-auto text-center bg-amber-50/85 backdrop-blur-md rounded-xl p-8 shadow-xl border border-amber-200/50">
+        <div className="max-w-2xl mx-auto text-center bg-white/95 backdrop-blur-md rounded-xl p-8 shadow-xl border border-slate-200">
           <h3 className="text-2xl text-black mb-8 font-bold"
               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
             Контактная информация
@@ -297,7 +297,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-amber-300/30 relative">
-        <div className="max-w-4xl mx-auto text-center bg-amber-50/80 backdrop-blur-sm rounded-xl p-6 border border-amber-200/30">
+        <div className="max-w-4xl mx-auto text-center bg-white/95 backdrop-blur-sm rounded-xl p-6 border border-slate-200/30">
 
           <p className="text-black text-xl font-bold"
              style={{ fontFamily: "'Comfortaa', sans-serif" }}>
