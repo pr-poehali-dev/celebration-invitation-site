@@ -245,10 +245,10 @@ const Index = () => {
                 <div className="text-center pt-6">
                   <Button
                     type="submit"
-                    className="bg-gradient-to-r from-slate-600 to-amber-600 text-white font-bold px-12 py-3 rounded-full hover:from-slate-700 hover:to-amber-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
+                    className="bg-gradient-to-r from-slate-600 to-amber-600 text-white font-bold px-6 py-3 rounded-full hover:from-slate-700 hover:to-amber-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm leading-tight max-w-xs mx-auto"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}
                   >
-                    Отправить подтверждение
+                    Отправить<br />подтверждение
                   </Button>
                 </div>
               </form>
