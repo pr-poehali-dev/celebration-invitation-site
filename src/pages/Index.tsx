@@ -37,10 +37,10 @@ const Index = () => {
           <div className="mb-8">
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-6 text-slate-800"
-                style={{ fontFamily: "'Laila', serif", fontWeight: 700 }}>
+                style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}>
               Приглашение
             </h1>
-            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent mx-auto mb-12"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-slate-600 to-transparent mx-auto mb-12"></div>
           </div>
           
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
@@ -48,7 +48,7 @@ const Index = () => {
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
-            <p className="text-blue-700 font-bold text-2xl"
+            <p className="text-slate-600 font-bold text-2xl"
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
@@ -61,10 +61,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Date & Time */}
-            <Card className="bg-white/95 backdrop-blur-md border-blue-200 hover:border-blue-300 transition-all duration-300 shadow-xl hover:shadow-2xl">
+            <Card className="bg-white/95 backdrop-blur-md border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
-                  <Icon name="Calendar" size={48} className="text-blue-500 mx-auto mb-4" />
+                  <Icon name="Calendar" size={48} className="text-slate-600 mx-auto mb-4" />
                   <h3 className="text-2xl text-slate-700 mb-4 font-bold"
                       style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Дата и время
@@ -122,7 +122,7 @@ const Index = () => {
               <div className="mb-8">
                 <Icon name="Shirt" size={48} className="text-slate-600 mx-auto mb-4" />
                 <h3 className="text-2xl text-slate-700 mb-6 font-bold"
-                    style={{ fontFamily: "'Laila', serif" }}>
+                    style={{ fontFamily: "'Dancing Script', cursive" }}>
                   Дресс-код
                 </h3>
                 <div className="relative">
@@ -141,17 +141,17 @@ const Index = () => {
             {/* Gift Info */}
             <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
-                <Icon name="Gift" size={48} className="text-blue-500 mx-auto mb-4" />
+                <Icon name="Gift" size={48} className="text-slate-600 mx-auto mb-4" />
                 <h3 className="text-2xl text-slate-700 mb-6 font-bold"
-                    style={{ fontFamily: "'Laila', serif" }}>
+                    style={{ fontFamily: "'Dancing Script', cursive" }}>
                   О подарках
                 </h3>
                 <div className="text-base leading-relaxed">
                   <p className="mb-4 text-slate-700 font-semibold"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    Мы не хотим обременять себя поиском подарка, лучшим выбором будет вклад на мечту в бюджет нашей молодой семьи.
+                    Мы не хотим обременять вас поиском подарка, поэтому лучшим выбором будет вклад на исполнение мечты нашей молодой семьи.
                   </p>
-                  <p className="text-blue-600 text-lg font-bold"
+                  <p className="text-slate-600 text-lg font-bold"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     И руки будут всегда готовы для объятий)
                   </p>
@@ -167,10 +167,10 @@ const Index = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl text-slate-700 mb-4 font-bold"
-                style={{ fontFamily: "'Laila', serif" }}>
+                style={{ fontFamily: "'Dancing Script', cursive" }}>
               Подтверждение участия
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent mx-auto"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-slate-600 to-transparent mx-auto"></div>
           </div>
 
           <Card className="bg-white/95 backdrop-blur-md border-slate-200 shadow-2xl">
@@ -186,7 +186,7 @@ const Index = () => {
                       id="name"
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="bg-white border-slate-300 text-slate-800 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
+                      className="bg-white border-slate-300 text-slate-800 focus:border-slate-600 focus:ring-slate-600/20 font-semibold"
                       style={{ fontFamily: "'Comfortaa', sans-serif" }}
                       required
                     />
@@ -201,7 +201,7 @@ const Index = () => {
                       type="email"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="bg-white border-slate-300 text-slate-800 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
+                      className="bg-white border-slate-300 text-slate-800 focus:border-slate-600 focus:ring-slate-600/20 font-semibold"
                       style={{ fontFamily: "'Comfortaa', sans-serif" }}
                       required
                     />
@@ -217,7 +217,7 @@ const Index = () => {
                     id="attendance"
                     value={formData.attendance}
                     onChange={(e) => setFormData({...formData, attendance: e.target.value})}
-                    className="w-full bg-white border border-slate-300 text-slate-800 rounded-md px-3 py-2 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
+                    className="w-full bg-white border border-slate-300 text-slate-800 rounded-md px-3 py-2 focus:border-slate-600 focus:ring-slate-600/20 font-semibold"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}
                     required
                   >
@@ -236,7 +236,7 @@ const Index = () => {
                     id="message"
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    className="bg-white border-slate-300 text-slate-800 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
+                    className="bg-white border-slate-300 text-slate-800 focus:border-slate-600 focus:ring-slate-600/20 font-semibold"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}
                     rows={4}
                   />
@@ -245,7 +245,7 @@ const Index = () => {
                 <div className="text-center pt-6">
                   <Button
                     type="submit"
-                    className="bg-gradient-to-r from-blue-500 to-amber-600 text-white font-bold px-12 py-3 rounded-full hover:from-blue-600 hover:to-amber-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
+                    className="bg-gradient-to-r from-slate-600 to-amber-600 text-white font-bold px-12 py-3 rounded-full hover:from-slate-700 hover:to-amber-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}
                   >
                     Отправить подтверждение
@@ -266,7 +266,7 @@ const Index = () => {
           </h3>
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-3">
-              <Icon name="Phone" size={20} className="text-blue-500" />
+              <Icon name="Phone" size={20} className="text-slate-600" />
               <span className="text-slate-800 font-bold"
                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                 +7 987 096-18-43
@@ -286,7 +286,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-slate-300/50 relative">
         <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-lg p-6">
-          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-4"></div>
+          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-slate-600 to-transparent mx-auto mb-4"></div>
           <p className="text-slate-700 text-xl font-bold"
              style={{ fontFamily: "'Comfortaa', sans-serif" }}>
             Ждем вас с нетерпением!
