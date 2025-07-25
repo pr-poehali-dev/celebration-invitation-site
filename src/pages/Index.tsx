@@ -21,7 +21,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen relative" style={{
-      fontFamily: "'Dancing Script', cursive",
+      fontFamily: "'Comfortaa', sans-serif",
       backgroundImage: `url('https://cdn.poehali.dev/files/a60c5f2d-7b2c-4a6e-8bff-d17c6cdf40a8.jpg')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -37,7 +37,7 @@ const Index = () => {
           <div className="mb-8">
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-6 text-slate-800"
-                style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}>
+                style={{ fontFamily: "'Laila', serif", fontWeight: 700 }}>
               Приглашение
             </h1>
             <div className="w-32 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent mx-auto mb-12"></div>
@@ -45,11 +45,11 @@ const Index = () => {
           
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
             <p className="font-semibold text-slate-700 text-xl"
-               style={{ fontFamily: "'Dancing Script', cursive" }}>
+               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
             <p className="text-blue-700 font-bold text-2xl"
-               style={{ fontFamily: "'Dancing Script', cursive" }}>
+               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
           </div>
@@ -66,17 +66,17 @@ const Index = () => {
                 <div className="mb-6">
                   <Icon name="Calendar" size={48} className="text-blue-500 mx-auto mb-4" />
                   <h3 className="text-2xl text-slate-700 mb-4 font-bold"
-                      style={{ fontFamily: "'Dancing Script', cursive" }}>
+                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Дата и время
                   </h3>
                 </div>
                 <div className="space-y-3">
                   <p className="text-3xl font-bold text-slate-800"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     21 сентября 2025
                   </p>
                   <p className="text-xl text-slate-600 font-semibold"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     19:00
                   </p>
                 </div>
@@ -89,21 +89,21 @@ const Index = () => {
                 <div className="mb-6">
                   <Icon name="MapPin" size={48} className="text-amber-600 mx-auto mb-4" />
                   <h3 className="text-2xl text-slate-700 mb-4 font-bold"
-                      style={{ fontFamily: "'Dancing Script', cursive" }}>
+                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Место проведения
                   </h3>
                 </div>
                 <div className="space-y-2">
                   <p className="text-lg text-slate-800 font-semibold"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     г. Уфа
                   </p>
                   <p className="text-lg text-slate-800 font-semibold"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     ул. Златоустовская, 20
                   </p>
                   <p className="text-lg text-slate-800 font-semibold"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     корпус 2
                   </p>
                 </div>
@@ -122,16 +122,16 @@ const Index = () => {
               <div className="mb-8">
                 <Icon name="Shirt" size={48} className="text-slate-600 mx-auto mb-4" />
                 <h3 className="text-2xl text-slate-700 mb-6 font-bold"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    style={{ fontFamily: "'Laila', serif" }}>
                   Дресс-код
                 </h3>
                 <div className="relative">
                   <div className="text-4xl font-bold mb-4 text-slate-800"
-                       style={{ fontFamily: "'Dancing Script', cursive" }}>
+                       style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Black Tie
                   </div>
                   <div className="text-lg font-semibold text-slate-600"
-                       style={{ fontFamily: "'Dancing Script', cursive" }}>
+                       style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Торжественный стиль
                   </div>
                 </div>
@@ -143,16 +143,16 @@ const Index = () => {
               <div className="mb-8">
                 <Icon name="Gift" size={48} className="text-blue-500 mx-auto mb-4" />
                 <h3 className="text-2xl text-slate-700 mb-6 font-bold"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    style={{ fontFamily: "'Laila', serif" }}>
                   О подарках
                 </h3>
                 <div className="text-base leading-relaxed">
                   <p className="mb-4 text-slate-700 font-semibold"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Мы не хотим обременять себя поиском подарка, лучшим выбором будет вклад на мечту в бюджет нашей молодой семьи.
                   </p>
                   <p className="text-blue-600 text-lg font-bold"
-                     style={{ fontFamily: "'Dancing Script', cursive" }}>
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     И руки будут всегда готовы для объятий)
                   </p>
                 </div>
@@ -167,7 +167,7 @@ const Index = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl text-slate-700 mb-4 font-bold"
-                style={{ fontFamily: "'Dancing Script', cursive" }}>
+                style={{ fontFamily: "'Laila', serif" }}>
               Подтверждение участия
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent mx-auto"></div>
@@ -179,7 +179,7 @@ const Index = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <Label htmlFor="name" className="text-slate-700 mb-2 block font-bold"
-                           style={{ fontFamily: "'Dancing Script', cursive" }}>
+                           style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                       Имя
                     </Label>
                     <Input
@@ -187,13 +187,13 @@ const Index = () => {
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
                       className="bg-white border-slate-300 text-slate-800 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
-                      style={{ fontFamily: "'Dancing Script', cursive" }}
+                      style={{ fontFamily: "'Comfortaa', sans-serif" }}
                       required
                     />
                   </div>
                   <div>
                     <Label htmlFor="email" className="text-slate-700 mb-2 block font-bold"
-                           style={{ fontFamily: "'Dancing Script', cursive" }}>
+                           style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                       Email
                     </Label>
                     <Input
@@ -202,7 +202,7 @@ const Index = () => {
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
                       className="bg-white border-slate-300 text-slate-800 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
-                      style={{ fontFamily: "'Dancing Script', cursive" }}
+                      style={{ fontFamily: "'Comfortaa', sans-serif" }}
                       required
                     />
                   </div>
@@ -210,7 +210,7 @@ const Index = () => {
 
                 <div>
                   <Label htmlFor="attendance" className="text-slate-700 mb-2 block font-bold"
-                         style={{ fontFamily: "'Dancing Script', cursive" }}>
+                         style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Подтверждение участия
                   </Label>
                   <select
@@ -218,7 +218,7 @@ const Index = () => {
                     value={formData.attendance}
                     onChange={(e) => setFormData({...formData, attendance: e.target.value})}
                     className="w-full bg-white border border-slate-300 text-slate-800 rounded-md px-3 py-2 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}
+                    style={{ fontFamily: "'Comfortaa', sans-serif" }}
                     required
                   >
                     <option value="">Выберите вариант</option>
@@ -229,7 +229,7 @@ const Index = () => {
 
                 <div>
                   <Label htmlFor="message" className="text-slate-700 mb-2 block font-bold"
-                         style={{ fontFamily: "'Dancing Script', cursive" }}>
+                         style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     Сообщение (необязательно)
                   </Label>
                   <Textarea
@@ -237,7 +237,7 @@ const Index = () => {
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
                     className="bg-white border-slate-300 text-slate-800 focus:border-blue-500 focus:ring-blue-500/20 font-semibold"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}
+                    style={{ fontFamily: "'Comfortaa', sans-serif" }}
                     rows={4}
                   />
                 </div>
@@ -246,7 +246,7 @@ const Index = () => {
                   <Button
                     type="submit"
                     className="bg-gradient-to-r from-blue-500 to-amber-600 text-white font-bold px-12 py-3 rounded-full hover:from-blue-600 hover:to-amber-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}
+                    style={{ fontFamily: "'Comfortaa', sans-serif" }}
                   >
                     Отправить подтверждение
                   </Button>
@@ -261,21 +261,21 @@ const Index = () => {
       <section className="py-16 px-6 relative">
         <div className="max-w-2xl mx-auto text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
           <h3 className="text-2xl text-slate-700 mb-8 font-bold"
-              style={{ fontFamily: "'Dancing Script', cursive" }}>
+              style={{ fontFamily: "'Comfortaa', sans-serif" }}>
             Контактная информация
           </h3>
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-3">
               <Icon name="Phone" size={20} className="text-blue-500" />
               <span className="text-slate-800 font-bold"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                 +7 987 096-18-43
               </span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Icon name="Mail" size={20} className="text-amber-600" />
               <span className="text-slate-800 font-bold"
-                    style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                 regina-bulatova1997@mail.ru
               </span>
             </div>
@@ -288,7 +288,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-lg p-6">
           <div className="w-16 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-4"></div>
           <p className="text-slate-700 text-xl font-bold"
-             style={{ fontFamily: "'Dancing Script', cursive" }}>
+             style={{ fontFamily: "'Comfortaa', sans-serif" }}>
             Ждем вас с нетерпением!
           </p>
         </div>
