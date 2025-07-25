@@ -87,7 +87,7 @@ const Index = () => {
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     21 сентября 2025
                   </p>
-                  <p className="text-xl text-slate-600 font-semibold"
+                  <p className="text-3xl text-slate-600 font-semibold"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
                     19:00
                   </p>
