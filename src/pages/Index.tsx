@@ -49,7 +49,7 @@ const Index = () => {
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
             <p className="text-slate-600 font-bold text-2xl"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Dancing Script', cursive" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
           </div>
