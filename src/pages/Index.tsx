@@ -112,15 +112,11 @@ const Index = () => {
                   </p>
                   <p className="text-lg text-black font-semibold"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    ул. Златоустовская, 20
-                  </p>
-                  <p className="text-lg text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    корпус 2
+                    ул. Златоустовская, 20/2
                   </p>
                   <div className="mt-4">
                     <button
-                      onClick={() => window.open('https://maps.google.com/?q=г.+Уфа,+ул.+Златоустовская,+20,+корпус+2', '_blank')}
+                      onClick={() => window.open('https://maps.google.com/?q=г.+Уфа,+ул.+Златоустовская,+20/2', '_blank')}
                       className="inline-flex items-center space-x-2 bg-transparent border-2 border-green-800 text-green-800 font-semibold px-4 py-2 rounded-lg hover:bg-green-800 hover:text-white transition-all duration-300"
                       style={{ fontFamily: "'Comfortaa', sans-serif" }}
                     >
