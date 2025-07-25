@@ -37,7 +37,7 @@ const Index = () => {
           <div className="mb-8">
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-6 text-slate-800"
-                style={{ fontFamily: "'Marck Script', cursive", fontWeight: 700 }}>
+                style={{ fontFamily: "'Lobster Two', cursive", fontWeight: 700 }}>
               Приглашение
             </h1>
             <div className="w-32 h-1 bg-gradient-to-r from-transparent via-slate-600 to-transparent mx-auto mb-12"></div>
@@ -49,7 +49,7 @@ const Index = () => {
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
             <p className="text-slate-600 font-bold text-2xl"
-               style={{ fontFamily: "'Marck Script', cursive" }}>
+               style={{ fontFamily: "'Lobster Two', cursive" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
           </div>
@@ -122,7 +122,7 @@ const Index = () => {
               <div className="mb-8">
                 <Icon name="Shirt" size={48} className="text-slate-600 mx-auto mb-4" />
                 <h3 className="text-2xl text-slate-700 mb-6 font-bold"
-                    style={{ fontFamily: "'Marck Script', cursive" }}>
+                    style={{ fontFamily: "'Lobster Two', cursive" }}>
                   Дресс-код
                 </h3>
                 <div className="relative">
@@ -143,7 +143,7 @@ const Index = () => {
               <div className="mb-8">
                 <Icon name="Gift" size={48} className="text-slate-600 mx-auto mb-4" />
                 <h3 className="text-2xl text-slate-700 mb-6 font-bold"
-                    style={{ fontFamily: "'Marck Script', cursive" }}>
+                    style={{ fontFamily: "'Lobster Two', cursive" }}>
                   О подарках
                 </h3>
                 <div className="text-base leading-relaxed">
@@ -167,7 +167,7 @@ const Index = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl text-slate-700 mb-4 font-bold"
-                style={{ fontFamily: "'Marck Script', cursive" }}>
+                style={{ fontFamily: "'Lobster Two', cursive" }}>
               Подтверждение участия
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-slate-600 to-transparent mx-auto"></div>
