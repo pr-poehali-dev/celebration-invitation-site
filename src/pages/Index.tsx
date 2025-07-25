@@ -36,7 +36,7 @@ const Index = () => {
         <div className="relative z-10 text-center max-w-4xl px-6">
           <div className="mb-8">
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-6 text-slate-800"
+            <h1 className="text-6xl md:text-8xl font-bold tracking-wider mb-6 text-slate-800"
                 style={{ fontFamily: "'Great Vibes', cursive", fontWeight: 400 }}>
               Приглашение
             </h1>
@@ -48,7 +48,7 @@ const Index = () => {
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
-            <p className="text-slate-600 font-bold text-2xl"
+            <p className="text-slate-600 font-bold text-3xl"
                style={{ fontFamily: "'Great Vibes', cursive" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
@@ -121,7 +121,7 @@ const Index = () => {
             <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
                 <Icon name="Shirt" size={48} className="text-slate-600 mx-auto mb-4" />
-                <h3 className="text-2xl text-slate-700 mb-6 font-bold"
+                <h3 className="text-3xl text-slate-700 mb-6 font-bold"
                     style={{ fontFamily: "'Great Vibes', cursive" }}>
                   Дресс-код
                 </h3>
@@ -142,7 +142,7 @@ const Index = () => {
             <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl border border-slate-200">
               <div className="mb-8">
                 <Icon name="Gift" size={48} className="text-slate-600 mx-auto mb-4" />
-                <h3 className="text-2xl text-slate-700 mb-6 font-bold"
+                <h3 className="text-3xl text-slate-700 mb-6 font-bold"
                     style={{ fontFamily: "'Great Vibes', cursive" }}>
                   О подарках
                 </h3>
@@ -166,7 +166,7 @@ const Index = () => {
       <section className="py-20 px-6 relative">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl text-slate-700 mb-4 font-bold"
+            <h2 className="text-4xl text-slate-700 mb-4 font-bold"
                 style={{ fontFamily: "'Great Vibes', cursive" }}>
               Подтверждение участия
             </h2>
