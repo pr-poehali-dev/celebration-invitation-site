@@ -44,17 +44,7 @@ const Index = () => {
           </div>
           
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-            {/* Photo of the couple */}
-            <div className="mb-8 flex justify-center">
-              <div className="relative">
-                <img 
-                  src="https://cdn.poehali.dev/files/af56435b-f44d-4a13-a678-05f1fadda37c.jpg" 
-                  alt="Молодожены" 
-                  className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-2xl"
-                />
-                <div className="absolute inset-0 rounded-full bg-gradient-to-t from-amber-900/10 to-transparent"></div>
-              </div>
-            </div>
+
             
             <p className="font-semibold text-black text-xl"
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
@@ -85,11 +75,7 @@ const Index = () => {
                 <div className="space-y-3">
                   <p className="text-2xl font-bold text-black text-center"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    21 сентября<br />2025
-                  </p>
-                  <p className="text-2xl text-black font-semibold text-center"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    19:00
+                    21 сентября 2025<br />19:00
                   </p>
                 </div>
               </CardContent>
