@@ -44,6 +44,18 @@ const Index = () => {
           </div>
           
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
+            {/* Photo of the couple */}
+            <div className="mb-8 flex justify-center">
+              <div className="relative">
+                <img 
+                  src="/img/c7c661ce-e091-4ee0-a308-3eebb9fd4080.jpg" 
+                  alt="Молодожены" 
+                  className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-2xl"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-t from-black/10 to-transparent"></div>
+              </div>
+            </div>
+            
             <p className="font-semibold text-slate-700 text-xl"
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
