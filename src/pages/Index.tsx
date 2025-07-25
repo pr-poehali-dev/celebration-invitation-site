@@ -20,31 +20,35 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-green-50 to-pink-50 text-gray-800 font-sans">
+    <div className="min-h-screen relative" style={{
+      fontFamily: "'Nunito', sans-serif",
+      backgroundImage: `url('https://cdn.poehali.dev/files/1f1ebaa7-7fac-4ce7-8321-f639899be083.jpg')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed'
+    }}>
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-white/40 backdrop-blur-[1px]"></div>
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Geometric Background Elements */}
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-10 w-32 h-32 border-2 border-emerald-300 rotate-45 animate-pulse"></div>
-          <div className="absolute bottom-32 right-16 w-24 h-24 bg-gradient-to-br from-rose-300 to-pink-300 rounded-full opacity-30"></div>
-          <div className="absolute top-1/2 right-20 w-16 h-64 bg-gradient-to-b from-transparent via-emerald-300 to-transparent opacity-20 rotate-12"></div>
-          <div className="absolute bottom-20 left-1/4 w-48 h-1 bg-gradient-to-r from-rose-300 to-emerald-300"></div>
-        </div>
-
         <div className="relative z-10 text-center max-w-4xl px-6">
           <div className="mb-8">
-            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent mx-auto mb-8"></div>
-            <h1 className="text-5xl md:text-7xl font-light tracking-wider mb-6 font-serif text-gray-700">
-              ПРИГЛАШЕНИЕ
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-slate-700 to-transparent mx-auto mb-8"></div>
+            <h1 className="text-5xl md:text-7xl font-light tracking-wider mb-6 text-slate-800"
+                style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}>
+              Приглашение
             </h1>
-            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-rose-400 to-transparent mx-auto mb-12"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-blue-600 to-transparent mx-auto mb-12"></div>
           </div>
           
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-            <p className="font-light">
+            <p className="font-medium text-slate-700">
               В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
             </p>
-            <p className="text-emerald-600 font-medium text-xl">
+            <p className="text-blue-700 font-semibold text-2xl"
+               style={{ fontFamily: "'Dancing Script', cursive" }}>
               С огромной радостью приглашаем разделить с нами этот волшебный момент!
             </p>
           </div>
@@ -52,34 +56,40 @@ const Index = () => {
       </section>
 
       {/* Event Details Section */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 relative">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Date & Time */}
-            <Card className="bg-white/80 backdrop-blur-sm border-emerald-200 hover:border-emerald-300 transition-all duration-300 shadow-lg hover:shadow-xl">
+            <Card className="bg-white/95 backdrop-blur-md border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
-                  <Icon name="Calendar" size={48} className="text-emerald-500 mx-auto mb-4" />
-                  <h3 className="text-2xl font-light text-emerald-600 mb-4">ДАТА И ВРЕМЯ</h3>
+                  <Icon name="Calendar" size={48} className="text-blue-600 mx-auto mb-4" />
+                  <h3 className="text-2xl text-slate-700 mb-4 font-bold"
+                      style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    Дата и время
+                  </h3>
                 </div>
                 <div className="space-y-3">
-                  <p className="text-3xl font-light text-gray-700">21 сентября 2025</p>
-                  <p className="text-xl text-gray-600">19:00</p>
+                  <p className="text-3xl font-bold text-slate-800">21 сентября 2025</p>
+                  <p className="text-xl text-slate-600 font-medium">19:00</p>
                 </div>
               </CardContent>
             </Card>
 
             {/* Location */}
-            <Card className="bg-white/80 backdrop-blur-sm border-rose-200 hover:border-rose-300 transition-all duration-300 shadow-lg hover:shadow-xl">
+            <Card className="bg-white/95 backdrop-blur-md border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-xl hover:shadow-2xl">
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
-                  <Icon name="MapPin" size={48} className="text-rose-500 mx-auto mb-4" />
-                  <h3 className="text-2xl font-light text-rose-600 mb-4">МЕСТО ПРОВЕДЕНИЯ</h3>
+                  <Icon name="MapPin" size={48} className="text-amber-600 mx-auto mb-4" />
+                  <h3 className="text-2xl text-slate-700 mb-4 font-bold"
+                      style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    Место проведения
+                  </h3>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-lg text-gray-700">г. Уфа</p>
-                  <p className="text-lg text-gray-700">ул. Златоустовская, 20</p>
-                  <p className="text-lg text-gray-700">корпус 2</p>
+                  <p className="text-lg text-slate-800 font-medium">г. Уфа</p>
+                  <p className="text-lg text-slate-800 font-medium">ул. Златоустовская, 20</p>
+                  <p className="text-lg text-slate-800 font-medium">корпус 2</p>
                 </div>
               </CardContent>
             </Card>
@@ -88,31 +98,41 @@ const Index = () => {
       </section>
 
       {/* Dress Code & Gift Section */}
-      <section className="py-20 px-6 bg-gradient-to-b from-green-50 to-rose-50">
+      <section className="py-20 px-6 relative">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Dress Code */}
-            <div className="text-center">
+            <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl">
               <div className="mb-8">
-                <Icon name="Shirt" size={48} className="text-emerald-500 mx-auto mb-4" />
-                <h3 className="text-2xl font-light text-emerald-600 mb-6">ДРЕСС-КОД</h3>
+                <Icon name="Shirt" size={48} className="text-slate-700 mx-auto mb-4" />
+                <h3 className="text-2xl text-slate-700 mb-6 font-bold"
+                    style={{ fontFamily: "'Dancing Script', cursive" }}>
+                  Дресс-код
+                </h3>
                 <div className="relative">
-                  <div className="text-4xl font-light mb-4 text-gray-700">Black Tie</div>
-                  <div className="text-lg font-light text-gray-600">Торжественный стиль</div>
+                  <div className="text-4xl font-bold mb-4 text-slate-800"
+                       style={{ fontFamily: "'Dancing Script', cursive" }}>
+                    Black Tie
+                  </div>
+                  <div className="text-lg font-medium text-slate-600">Торжественный стиль</div>
                 </div>
               </div>
             </div>
 
             {/* Gift Info */}
-            <div className="text-center">
+            <div className="text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl">
               <div className="mb-8">
-                <Icon name="Gift" size={48} className="text-rose-500 mx-auto mb-4" />
-                <h3 className="text-2xl font-light text-rose-600 mb-6">О ПОДАРКАХ</h3>
+                <Icon name="Gift" size={48} className="text-blue-600 mx-auto mb-4" />
+                <h3 className="text-2xl text-slate-700 mb-6 font-bold"
+                    style={{ fontFamily: "'Dancing Script', cursive" }}>
+                  О подарках
+                </h3>
                 <div className="text-base leading-relaxed">
-                  <p className="mb-4 text-gray-700">
+                  <p className="mb-4 text-slate-700 font-medium">
                     Мы не хотим обременять себя поиском подарка, лучшим выбором будет вклад на мечту в бюджет нашей молодой семьи.
                   </p>
-                  <p className="text-rose-500">
+                  <p className="text-blue-600 text-lg"
+                     style={{ fontFamily: "'Dancing Script', cursive" }}>
                     И руки будут всегда готовы для объятий)
                   </p>
                 </div>
@@ -123,47 +143,50 @@ const Index = () => {
       </section>
 
       {/* RSVP Form */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 relative">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-light text-emerald-600 mb-4">ПОДТВЕРЖДЕНИЕ УЧАСТИЯ</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent mx-auto"></div>
+            <h2 className="text-3xl text-slate-700 mb-4 font-bold"
+                style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Подтверждение участия
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-600 to-transparent mx-auto"></div>
           </div>
 
-          <Card className="bg-white/90 backdrop-blur-sm border-emerald-200 shadow-xl">
+          <Card className="bg-white/95 backdrop-blur-md border-slate-200 shadow-2xl">
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="name" className="text-emerald-600 mb-2 block font-medium">Имя</Label>
+                    <Label htmlFor="name" className="text-slate-700 mb-2 block font-semibold">Имя</Label>
                     <Input
                       id="name"
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="bg-white border-emerald-300 text-gray-800 focus:border-emerald-500 focus:ring-emerald-200"
+                      className="bg-white border-slate-300 text-slate-800 focus:border-blue-600 focus:ring-blue-600/20 font-medium"
                       required
                     />
                   </div>
                   <div>
-                    <Label htmlFor="email" className="text-rose-600 mb-2 block font-medium">Email</Label>
+                    <Label htmlFor="email" className="text-slate-700 mb-2 block font-semibold">Email</Label>
                     <Input
                       id="email"
                       type="email"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="bg-white border-rose-300 text-gray-800 focus:border-rose-500 focus:ring-rose-200"
+                      className="bg-white border-slate-300 text-slate-800 focus:border-blue-600 focus:ring-blue-600/20 font-medium"
                       required
                     />
                   </div>
                 </div>
 
                 <div>
-                  <Label htmlFor="attendance" className="text-emerald-600 mb-2 block font-medium">Подтверждение участия</Label>
+                  <Label htmlFor="attendance" className="text-slate-700 mb-2 block font-semibold">Подтверждение участия</Label>
                   <select
                     id="attendance"
                     value={formData.attendance}
                     onChange={(e) => setFormData({...formData, attendance: e.target.value})}
-                    className="w-full bg-white border border-emerald-300 text-gray-800 rounded-md px-3 py-2 focus:border-emerald-500 focus:ring-emerald-200"
+                    className="w-full bg-white border border-slate-300 text-slate-800 rounded-md px-3 py-2 focus:border-blue-600 focus:ring-blue-600/20 font-medium"
                     required
                   >
                     <option value="">Выберите вариант</option>
@@ -173,12 +196,12 @@ const Index = () => {
                 </div>
 
                 <div>
-                  <Label htmlFor="message" className="text-rose-600 mb-2 block font-medium">Сообщение (необязательно)</Label>
+                  <Label htmlFor="message" className="text-slate-700 mb-2 block font-semibold">Сообщение (необязательно)</Label>
                   <Textarea
                     id="message"
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    className="bg-white border-rose-300 text-gray-800 focus:border-rose-500 focus:ring-rose-200"
+                    className="bg-white border-slate-300 text-slate-800 focus:border-blue-600 focus:ring-blue-600/20 font-medium"
                     rows={4}
                   />
                 </div>
@@ -186,7 +209,7 @@ const Index = () => {
                 <div className="text-center pt-6">
                   <Button
                     type="submit"
-                    className="bg-gradient-to-r from-emerald-400 to-rose-400 text-white font-medium px-12 py-3 rounded-full hover:from-emerald-500 hover:to-rose-500 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    className="bg-gradient-to-r from-blue-600 to-slate-700 text-white font-bold px-12 py-3 rounded-full hover:from-blue-700 hover:to-slate-800 transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
                   >
                     ОТПРАВИТЬ ПОДТВЕРЖДЕНИЕ
                   </Button>
@@ -198,27 +221,31 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 px-6 bg-gradient-to-t from-rose-50 to-green-50">
-        <div className="max-w-2xl mx-auto text-center">
-          <h3 className="text-2xl font-light text-emerald-600 mb-8">КОНТАКТНАЯ ИНФОРМАЦИЯ</h3>
+      <section className="py-16 px-6 relative">
+        <div className="max-w-2xl mx-auto text-center bg-white/90 backdrop-blur-md rounded-lg p-8 shadow-xl">
+          <h3 className="text-2xl text-slate-700 mb-8 font-bold"
+              style={{ fontFamily: "'Dancing Script', cursive" }}>
+            Контактная информация
+          </h3>
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-3">
-              <Icon name="Phone" size={20} className="text-emerald-500" />
-              <span className="text-gray-700">+7 (XXX) XXX-XX-XX</span>
+              <Icon name="Phone" size={20} className="text-blue-600" />
+              <span className="text-slate-800 font-semibold">+7 987 096-18-43</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
-              <Icon name="Mail" size={20} className="text-rose-500" />
-              <span className="text-gray-700">example@email.com</span>
+              <Icon name="Mail" size={20} className="text-amber-600" />
+              <span className="text-slate-800 font-semibold">regina-bulatova1997@mail.ru</span>
             </div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 border-t border-emerald-200">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-rose-400 to-transparent mx-auto mb-4"></div>
-          <p className="text-emerald-600 font-light">
+      <footer className="py-8 px-6 border-t border-slate-300/50 relative">
+        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm rounded-lg p-6">
+          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-blue-600 to-transparent mx-auto mb-4"></div>
+          <p className="text-slate-700 text-xl font-semibold"
+             style={{ fontFamily: "'Dancing Script', cursive" }}>
             Ждем вас с нетерпением!
           </p>
         </div>
