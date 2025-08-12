@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import Icon from "@/components/ui/icon";
+import CountdownTimer from "@/components/CountdownTimer";
 import { useState } from "react";
 
 const Index = () => {
@@ -53,10 +54,13 @@ const Index = () => {
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
 
             
-            <p className="text-black text-3xl md:text-4xl font-bold leading-relaxed"
+            <p className="text-black text-4xl md:text-5xl font-normal leading-relaxed"
                style={{ fontFamily: "'Great Vibes', cursive" }}>
               Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
             </p>
+
+            {/* Countdown Timer */}
+            <CountdownTimer />
           </div>
         </div>
       </section>
