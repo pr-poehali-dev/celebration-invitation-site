@@ -35,20 +35,19 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="relative z-10 text-center max-w-4xl px-6">
           <div className="mb-8 flex flex-col items-center space-y-6">
+            <h1 className="text-6xl md:text-8xl font-bold tracking-wider text-black"
+                style={{ fontFamily: "'Great Vibes', cursive", fontWeight: 400 }}>
+              Приглашение
+            </h1>
+
             {/* Names with floral decoration */}
-            <div className="w-80 md:w-96">
+            <div className="w-48 md:w-56">
               <img 
                 src="https://cdn.poehali.dev/files/d909215b-c57a-4dd9-9bd5-3f34d8422471.png" 
                 alt="Руслан и Регина" 
                 className="w-full h-auto object-contain"
               />
             </div>
-
-            <h1 className="text-6xl md:text-8xl font-bold tracking-wider text-black"
-                style={{ fontFamily: "'Great Vibes', cursive", fontWeight: 400 }}>
-              Приглашение
-            </h1>
-
           </div>
           
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
@@ -56,11 +55,7 @@ const Index = () => {
             
             <p className="font-semibold text-black text-xl"
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-              В этот трогательный день, мы хотим оказаться в окружении самых дорогих нам людей!
-            </p>
-            <p className="text-black font-thin text-4xl"
-               style={{ fontFamily: "'Great Vibes', cursive" }}>
-              С огромной радостью приглашаем разделить с нами этот волшебный момент!
+              Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
             </p>
           </div>
         </div>
