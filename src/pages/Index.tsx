@@ -34,9 +34,17 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="relative z-10 text-center max-w-4xl px-6">
-          <div className="mb-8">
+          <div className="mb-8 flex flex-col items-center space-y-6">
+            {/* Names with floral decoration */}
+            <div className="w-80 md:w-96">
+              <img 
+                src="https://cdn.poehali.dev/files/d909215b-c57a-4dd9-9bd5-3f34d8422471.png" 
+                alt="Руслан и Регина" 
+                className="w-full h-auto object-contain"
+              />
+            </div>
 
-            <h1 className="text-6xl md:text-8xl font-bold tracking-wider mb-6 text-black"
+            <h1 className="text-6xl md:text-8xl font-bold tracking-wider text-black"
                 style={{ fontFamily: "'Great Vibes', cursive", fontWeight: 400 }}>
               Приглашение
             </h1>
