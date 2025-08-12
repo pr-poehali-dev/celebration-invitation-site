@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState({
+    months: 0,
     days: 0,
     hours: 0,
     minutes: 0,
@@ -17,14 +18,15 @@ const CountdownTimer = () => {
       const difference = weddingDate.getTime() - now.getTime();
 
       if (difference > 0) {
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const months = Math.floor(difference / (1000 * 60 * 60 * 24 * 30));
+        const days = Math.floor((difference % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
         const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-        setTimeLeft({ days, hours, minutes, seconds });
+        setTimeLeft({ months, days, hours, minutes, seconds });
       } else {
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        setTimeLeft({ months: 0, days: 0, hours: 0, minutes: 0, seconds: 0 });
       }
     };
 
@@ -41,7 +43,19 @@ const CountdownTimer = () => {
         До нашего особенного дня осталось:
       </h3>
       
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-3 md:grid-cols-5 gap-4">
+        <div className="text-center">
+          <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
+               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+            {timeLeft.months}
+          </div>
+          <div className="text-lg text-black font-semibold"
+               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+            {timeLeft.months === 1 ? 'месяц' : 
+             timeLeft.months >= 2 && timeLeft.months <= 4 ? 'месяца' : 'месяцев'}
+          </div>
+        </div>
+        
         <div className="text-center">
           <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
                style={{ fontFamily: "'Comfortaa', sans-serif" }}>

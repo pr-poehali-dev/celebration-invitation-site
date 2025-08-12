@@ -36,7 +36,7 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="relative z-10 text-center max-w-4xl px-6">
           <div className="mb-8 flex flex-col items-center space-y-6">
-            <h1 className="text-6xl md:text-8xl font-bold tracking-wider text-black"
+            <h1 className="text-4xl md:text-6xl font-bold tracking-wider text-black"
                 style={{ fontFamily: "'Great Vibes', cursive", fontWeight: 400 }}>
               Приглашение
             </h1>
@@ -54,7 +54,7 @@ const Index = () => {
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
 
             
-            <p className="text-black text-4xl md:text-5xl font-normal leading-relaxed"
+            <p className="text-black text-2xl md:text-3xl font-normal leading-tight"
                style={{ fontFamily: "'Great Vibes', cursive" }}>
               Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
             </p>
