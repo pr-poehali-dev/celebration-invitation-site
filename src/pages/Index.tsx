@@ -53,7 +53,7 @@ const Index = () => {
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
 
             
-            <p className="text-black text-3xl md:text-4xl font-thin leading-relaxed"
+            <p className="text-black text-3xl md:text-4xl font-bold leading-relaxed"
                style={{ fontFamily: "'Great Vibes', cursive" }}>
               Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
             </p>
