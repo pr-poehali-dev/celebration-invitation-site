@@ -41,7 +41,7 @@ const Index = () => {
             </h1>
 
             {/* Names with floral decoration */}
-            <div className="w-48 md:w-56">
+            <div className="w-64 md:w-72">
               <img 
                 src="https://cdn.poehali.dev/files/d909215b-c57a-4dd9-9bd5-3f34d8422471.png" 
                 alt="Руслан и Регина" 
@@ -53,8 +53,8 @@ const Index = () => {
           <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
 
             
-            <p className="font-semibold text-black text-xl"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+            <p className="text-black text-3xl md:text-4xl font-thin leading-relaxed"
+               style={{ fontFamily: "'Great Vibes', cursive" }}>
               Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
             </p>
           </div>
@@ -132,15 +132,19 @@ const Index = () => {
                     style={{ fontFamily: "'Great Vibes', cursive" }}>
                   Дресс-код
                 </h3>
-                <div className="relative">
-                  <div className="text-4xl font-bold mb-4 text-black"
-                       style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    Black Tie
-                  </div>
-                  <div className="text-lg font-semibold text-black"
-                       style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    Торжественный стиль
-                  </div>
+                <div className="text-base leading-relaxed text-left">
+                  <p className="mb-4 text-black font-semibold"
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                    У нас нет строгого дресс-кода в выборе праздничного наряда, но по правилам площадки необходимо наличие второй обуви.
+                  </p>
+                  <p className="mb-4 text-black font-semibold"
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                    Мы сделали выбор в пользу формата 18+, поэтому просим оставить детей в надежных руках на этот вечер.
+                  </p>
+                  <p className="text-black font-semibold"
+                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                    На нашем празднике мы отдаем предпочтение безалкогольным напиткам, но мы не ограничиваем гостей в желании принести с собой свой любимый алкогольный напиток.
+                  </p>
                 </div>
               </div>
             </div>
@@ -156,11 +160,11 @@ const Index = () => {
                 <div className="text-base leading-relaxed">
                   <p className="mb-4 text-black font-semibold"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    Мы не хотим обременять вас поиском подарка, поэтому лучшим выбором будет вклад на исполнение мечты нашей молодой семьи.
+                    Ваше присутствие в день нашей свадьбы - самый значимый подарок для нас!
                   </p>
-                  <p className="text-black text-lg font-bold"
+                  <p className="text-black font-semibold"
                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
-                    И руки будут всегда готовы для объятий)
+                    Ваши улыбки и смех подарят нам незабываемое счастье в этот день, а пожелания в конвертах помогут осуществить наши мечты!
                   </p>
                 </div>
               </div>
