@@ -46,11 +46,11 @@ const CountdownTimer = () => {
       <div className="grid grid-cols-3 md:grid-cols-5 gap-4">
         <div className="text-center">
           <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.months}
           </div>
           <div className="text-lg text-black font-semibold"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.months === 1 ? 'месяц' : 
              timeLeft.months >= 2 && timeLeft.months <= 4 ? 'месяца' : 'месяцев'}
           </div>
@@ -58,11 +58,11 @@ const CountdownTimer = () => {
         
         <div className="text-center">
           <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.days}
           </div>
           <div className="text-lg text-black font-semibold"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.days === 1 ? 'день' : 
              timeLeft.days >= 2 && timeLeft.days <= 4 ? 'дня' : 'дней'}
           </div>
@@ -70,11 +70,11 @@ const CountdownTimer = () => {
         
         <div className="text-center">
           <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.hours}
           </div>
           <div className="text-lg text-black font-semibold"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.hours === 1 ? 'час' :
              timeLeft.hours >= 2 && timeLeft.hours <= 4 ? 'часа' : 'часов'}
           </div>
@@ -82,11 +82,11 @@ const CountdownTimer = () => {
         
         <div className="text-center">
           <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.minutes}
           </div>
           <div className="text-lg text-black font-semibold"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.minutes === 1 ? 'минута' :
              timeLeft.minutes >= 2 && timeLeft.minutes <= 4 ? 'минуты' : 'минут'}
           </div>
@@ -94,11 +94,11 @@ const CountdownTimer = () => {
         
         <div className="text-center">
           <div className="text-4xl md:text-5xl font-bold text-green-800 mb-2"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.seconds}
           </div>
           <div className="text-lg text-black font-semibold"
-               style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+               style={{ fontFamily: "'Tinos', serif" }}>
             {timeLeft.seconds === 1 ? 'секунда' :
              timeLeft.seconds >= 2 && timeLeft.seconds <= 4 ? 'секунды' : 'секунд'}
           </div>
