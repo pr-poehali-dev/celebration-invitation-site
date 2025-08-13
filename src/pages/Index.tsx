@@ -75,7 +75,7 @@ const Index = () => {
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
                   <Icon name="Calendar" size={48} className="text-green-800 mx-auto mb-4" />
-                  <h3 className="text-2xl text-black mb-4 font-thin"
+                  <h3 className="text-4xl text-black mb-6 font-thin"
                       style={{ fontFamily: "'Great Vibes', cursive" }}>
                     Дата и время
                   </h3>
@@ -94,7 +94,7 @@ const Index = () => {
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
                   <Icon name="MapPin" size={48} className="text-green-800 mx-auto mb-4" />
-                  <h3 className="text-2xl text-black mb-4 font-thin"
+                  <h3 className="text-4xl text-black mb-6 font-thin"
                       style={{ fontFamily: "'Great Vibes', cursive" }}>
                     Место проведения
                   </h3>
