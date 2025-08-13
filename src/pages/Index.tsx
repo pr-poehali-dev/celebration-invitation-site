@@ -33,9 +33,9 @@ const Index = () => {
       <div className="absolute inset-0 bg-amber-50/20 backdrop-blur-[0.5px]"></div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex justify-center overflow-hidden items-center md:items-center">
-        <div className="relative z-10 text-center max-w-4xl px-6">
-          <div className="mb-8 flex flex-col items-center space-y-6">
+      <section className="relative min-h-screen flex justify-center overflow-hidden items-center">
+        <div className="relative z-10 text-center">
+          <div className="flex flex-col items-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-wider text-black"
                 style={{ fontFamily: "'Great Vibes', cursive", fontWeight: 400 }}>
               Приглашение
@@ -50,18 +50,19 @@ const Index = () => {
               />
             </div>
           </div>
-          
-          <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
+        </div>
+      </section>
 
-            
-            <p className="text-black text-2xl md:text-3xl font-normal leading-tight"
-               style={{ fontFamily: "'Great Vibes', cursive" }}>
-              Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
-            </p>
+      {/* Story and Timer Section */}
+      <section className="py-20 px-6 relative">
+        <div className="max-w-3xl mx-auto text-center space-y-8">
+          <p className="text-black text-2xl md:text-3xl font-normal leading-tight"
+             style={{ fontFamily: "'Great Vibes', cursive" }}>
+            Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
+          </p>
 
-            {/* Countdown Timer */}
-            <CountdownTimer />
-          </div>
+          {/* Countdown Timer */}
+          <CountdownTimer />
         </div>
       </section>
 
