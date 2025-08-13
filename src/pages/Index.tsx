@@ -75,13 +75,13 @@ const Index = () => {
                 <div className="mb-6">
                   <Icon name="Calendar" size={48} className="text-green-800 mx-auto mb-4" />
                   <h3 className="text-2xl text-black mb-4 font-bold"
-                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                      style={{ fontFamily: "'Tinos', serif" }}>
                     Дата и время
                   </h3>
                 </div>
                 <div className="space-y-3">
                   <p className="text-2xl font-bold text-black text-center"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     21 сентября 2025<br />19:00
                   </p>
                 </div>
@@ -94,24 +94,24 @@ const Index = () => {
                 <div className="mb-6">
                   <Icon name="MapPin" size={48} className="text-green-800 mx-auto mb-4" />
                   <h3 className="text-2xl text-black mb-4 font-bold"
-                      style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                      style={{ fontFamily: "'Tinos', serif" }}>
                     Место проведения
                   </h3>
                 </div>
                 <div className="space-y-2">
                   <p className="text-lg text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     г. Уфа
                   </p>
                   <p className="text-lg text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     ул. Златоустовская, 20 к2
                   </p>
                   <div className="mt-4">
                     <button
                       onClick={() => window.open('https://maps.google.com/?q=г.+Уфа,+ул.+Златоустовская,+20+к2', '_blank')}
                       className="inline-flex items-center space-x-2 bg-transparent border-2 border-green-800 text-green-800 font-semibold px-4 py-2 rounded-lg hover:bg-green-800 hover:text-white transition-all duration-300"
-                      style={{ fontFamily: "'Comfortaa', sans-serif" }}
+                      style={{ fontFamily: "'Tinos', serif" }}
                     >
                       <Icon name="MapPin" size={16} />
                       <span>Построить маршрут</span>
@@ -138,15 +138,15 @@ const Index = () => {
                 </h3>
                 <div className="text-base leading-relaxed text-left">
                   <p className="mb-4 text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     У нас нет строгого дресс-кода в выборе праздничного наряда, но по правилам площадки необходимо наличие второй обуви.
                   </p>
                   <p className="mb-4 text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     Мы сделали выбор в пользу формата 18+, поэтому просим оставить детей в надежных руках на этот вечер.
                   </p>
                   <p className="text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     На нашем празднике мы отдаем предпочтение безалкогольным напиткам, но мы не ограничиваем гостей в желании принести с собой свой любимый алкогольный напиток.
                   </p>
                 </div>
@@ -163,11 +163,11 @@ const Index = () => {
                 </h3>
                 <div className="text-base leading-relaxed">
                   <p className="mb-4 text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     Ваше присутствие в день нашей свадьбы - самый значимый подарок для нас!
                   </p>
                   <p className="text-black font-semibold"
-                     style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                     style={{ fontFamily: "'Tinos', serif" }}>
                     Ваши улыбки и смех подарят нам незабываемое счастье в этот день, а пожелания в конвертах помогут осуществить наши мечты!
                   </p>
                 </div>
@@ -194,7 +194,7 @@ const Index = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <Label htmlFor="name" className="text-black mb-2 block font-bold"
-                           style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                           style={{ fontFamily: "'Tinos', serif" }}>
                       Имя
                     </Label>
                     <Input
@@ -202,13 +202,13 @@ const Index = () => {
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
                       className="bg-white/50 border-slate-200 text-black focus:border-slate-400 focus:ring-slate-400/20 font-semibold rounded-lg"
-                      style={{ fontFamily: "'Comfortaa', sans-serif" }}
+                      style={{ fontFamily: "'Tinos', serif" }}
                       required
                     />
                   </div>
                   <div>
                     <Label htmlFor="email" className="text-black mb-2 block font-bold"
-                           style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                           style={{ fontFamily: "'Tinos', serif" }}>
                       Email
                     </Label>
                     <Input
@@ -217,7 +217,7 @@ const Index = () => {
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
                       className="bg-white/50 border-slate-200 text-black focus:border-slate-400 focus:ring-slate-400/20 font-semibold rounded-lg"
-                      style={{ fontFamily: "'Comfortaa', sans-serif" }}
+                      style={{ fontFamily: "'Tinos', serif" }}
                       required
                     />
                   </div>
@@ -225,7 +225,7 @@ const Index = () => {
 
                 <div>
                   <Label htmlFor="attendance" className="text-black mb-2 block font-bold"
-                         style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                         style={{ fontFamily: "'Tinos', serif" }}>
                     Подтверждение участия
                   </Label>
                   <select
@@ -233,7 +233,7 @@ const Index = () => {
                     value={formData.attendance}
                     onChange={(e) => setFormData({...formData, attendance: e.target.value})}
                     className="w-full bg-white/50 border border-slate-200 text-black rounded-lg px-3 py-2 focus:border-slate-400 focus:ring-slate-400/20 font-semibold"
-                    style={{ fontFamily: "'Comfortaa', sans-serif" }}
+                    style={{ fontFamily: "'Tinos', serif" }}
                     required
                   >
                     <option value="">Выберите вариант</option>
@@ -244,7 +244,7 @@ const Index = () => {
 
                 <div>
                   <Label htmlFor="message" className="text-black mb-2 block font-bold"
-                         style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                         style={{ fontFamily: "'Tinos', serif" }}>
                     Сообщение (необязательно)
                   </Label>
                   <Textarea
@@ -252,7 +252,7 @@ const Index = () => {
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
                     className="bg-white border-slate-300 text-black focus:border-slate-600 focus:ring-slate-600/20 font-semibold"
-                    style={{ fontFamily: "'Comfortaa', sans-serif" }}
+                    style={{ fontFamily: "'Tinos', serif" }}
                     rows={4}
                   />
                 </div>
@@ -261,7 +261,7 @@ const Index = () => {
                   <Button
                     type="submit"
                     className="bg-transparent border-2 border-green-800 text-green-800 font-bold px-6 py-3 rounded-full hover:bg-green-800 hover:text-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm leading-tight max-w-xs mx-auto"
-                    style={{ fontFamily: "'Comfortaa', sans-serif" }}
+                    style={{ fontFamily: "'Tinos', serif" }}
                   >
                     Отправить<br />подтверждение
                   </Button>
@@ -276,21 +276,21 @@ const Index = () => {
       <section className="py-16 px-6 relative">
         <div className="max-w-2xl mx-auto text-center bg-white/50 backdrop-blur-md rounded-xl p-8 shadow-xl border border-slate-200">
           <h3 className="text-2xl text-black mb-8 font-bold"
-              style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+              style={{ fontFamily: "'Tinos', serif" }}>
             Контактная информация
           </h3>
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-3">
               <Icon name="Phone" size={20} className="text-green-800" />
               <span className="text-black font-bold"
-                    style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                    style={{ fontFamily: "'Tinos', serif" }}>
                 +7 987 096-18-43
               </span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Icon name="Mail" size={20} className="text-green-800" />
               <span className="text-black font-bold"
-                    style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+                    style={{ fontFamily: "'Tinos', serif" }}>
                 regina-bulatova1997@mail.ru
               </span>
             </div>
@@ -303,7 +303,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center bg-white/50 backdrop-blur-sm rounded-xl p-6 border border-slate-200/30">
 
           <p className="text-black text-xl font-bold"
-             style={{ fontFamily: "'Comfortaa', sans-serif" }}>
+             style={{ fontFamily: "'Tinos', serif" }}>
             Ждем вас с нетерпением!
           </p>
         </div>
