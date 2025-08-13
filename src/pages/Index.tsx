@@ -75,8 +75,8 @@ const Index = () => {
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
                   <Icon name="Calendar" size={48} className="text-green-800 mx-auto mb-4" />
-                  <h3 className="text-2xl text-black mb-4 font-bold"
-                      style={{ fontFamily: "'Tinos', serif" }}>
+                  <h3 className="text-2xl text-black mb-4 font-thin"
+                      style={{ fontFamily: "'Great Vibes', cursive" }}>
                     Дата и время
                   </h3>
                 </div>
@@ -94,8 +94,8 @@ const Index = () => {
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
                   <Icon name="MapPin" size={48} className="text-green-800 mx-auto mb-4" />
-                  <h3 className="text-2xl text-black mb-4 font-bold"
-                      style={{ fontFamily: "'Tinos', serif" }}>
+                  <h3 className="text-2xl text-black mb-4 font-thin"
+                      style={{ fontFamily: "'Great Vibes', cursive" }}>
                     Место проведения
                   </h3>
                 </div>
@@ -135,9 +135,9 @@ const Index = () => {
                 <Icon name="Shirt" size={48} className="text-green-800 mx-auto mb-4" />
                 <h3 className="text-4xl text-black mb-6 font-thin"
                     style={{ fontFamily: "'Great Vibes', cursive" }}>
-                  Дресс-код
+                  Детали
                 </h3>
-                <div className="text-base leading-relaxed text-left">
+                <div className="text-base leading-relaxed text-center">
                   <p className="mb-4 text-black font-semibold"
                      style={{ fontFamily: "'Tinos', serif" }}>
                     У нас нет строгого дресс-кода в выборе праздничного наряда, но по правилам площадки необходимо наличие второй обуви.
