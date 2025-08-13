@@ -191,7 +191,12 @@ const Index = () => {
 
           <Card className="bg-white/50 backdrop-blur-md border-slate-200 shadow-2xl rounded-xl">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form 
+                action="https://formspree.io/f/xpwzggnb"
+                method="POST"
+                onSubmit={handleSubmit} 
+                className="space-y-6"
+              >
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <Label htmlFor="name" className="text-black mb-2 block font-bold"
@@ -200,6 +205,7 @@ const Index = () => {
                     </Label>
                     <Input
                       id="name"
+                      name="name"
                       value={formData.name}
                       onChange={(e) => setFormData({...formData, name: e.target.value})}
                       className="bg-white/50 border-slate-200 text-black focus:border-slate-400 focus:ring-slate-400/20 font-semibold rounded-lg"
@@ -214,6 +220,7 @@ const Index = () => {
                     </Label>
                     <Input
                       id="email"
+                      name="email"
                       type="email"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
@@ -231,6 +238,7 @@ const Index = () => {
                   </Label>
                   <select
                     id="attendance"
+                    name="attendance"
                     value={formData.attendance}
                     onChange={(e) => setFormData({...formData, attendance: e.target.value})}
                     className="w-full bg-white/50 border border-slate-200 text-black rounded-lg px-3 py-2 focus:border-slate-400 focus:ring-slate-400/20 font-semibold"
@@ -250,6 +258,7 @@ const Index = () => {
                   </Label>
                   <Textarea
                     id="message"
+                    name="message"
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
                     className="bg-white border-slate-300 text-black focus:border-slate-600 focus:ring-slate-600/20 font-semibold"
