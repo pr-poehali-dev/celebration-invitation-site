@@ -33,7 +33,7 @@ const Index = () => {
       <div className="absolute inset-0 bg-amber-50/20 backdrop-blur-[0.5px]"></div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex justify-center overflow-hidden items-center md:items-center">
         <div className="relative z-10 text-center max-w-4xl px-6">
           <div className="mb-8 flex flex-col items-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-wider text-black"
