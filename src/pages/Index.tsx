@@ -56,7 +56,7 @@ const Index = () => {
       {/* Story and Timer Section */}
       <section className="py-20 px-6 relative">
         <div className="max-w-3xl mx-auto text-center space-y-8">
-          <p className="text-black text-2xl md:text-3xl font-normal leading-tight"
+          <p className="text-black text-3xl md:text-4xl font-normal leading-tight"
              style={{ fontFamily: "'Great Vibes', cursive" }}>
             Однажды мы нашли друг друга и поняли, что идти дальше мы хотим только вместе. Совсем скоро настанет день рождения нашей семьи, и мы будем рады, если вы проведёте этот счастливый день с нами!
           </p>
