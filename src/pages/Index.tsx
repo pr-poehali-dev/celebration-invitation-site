@@ -100,13 +100,9 @@ const Index = () => {
                   </h3>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-lg text-black font-semibold"
+                  <p className="text-2xl font-bold text-black text-center"
                      style={{ fontFamily: "'Tinos', serif" }}>
-                    г. Уфа
-                  </p>
-                  <p className="text-lg text-black font-semibold"
-                     style={{ fontFamily: "'Tinos', serif" }}>
-                    ул. Златоустовская, 20 к2
+                    г. Уфа<br />ул. Златоустовская, 20 к2
                   </p>
                   <div className="mt-4">
                     <button
