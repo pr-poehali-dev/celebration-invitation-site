@@ -24,51 +24,15 @@ const Index = () => {
     <div className="min-h-screen relative" style={{
       fontFamily: "'Tinos', serif"
     }}>
-      {/* Анимированный фон с параллакс эффектом */}
-      <div className="fixed inset-0 -z-10 wedding-background" style={{
+      {/* Фиксированный фон для всех браузеров, включая iOS Safari */}
+      <div className="fixed inset-0 -z-10" style={{
         backgroundImage: `url('https://cdn.poehali.dev/files/0ab15cd7-a95a-44a4-b265-1ce743a12588.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
-      }}>
-        {/* Лепестки роз */}
-        <div className="absolute inset-0 animate-float-petals opacity-30">
-          {Array.from({ length: 15 }).map((_, i) => (
-            <div
-              key={i}
-              className="absolute petal animate-fall"
-              style={{
-                left: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 15}s`,
-                animationDuration: `${15 + Math.random() * 10}s`
-              }}
-            >
-              🌹
-            </div>
-          ))}
-        </div>
-        
-        {/* Сердечки */}
-        <div className="absolute inset-0 opacity-20">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <div
-              key={i}
-              className="absolute heart animate-pulse"
-              style={{
-                left: `${20 + Math.random() * 60}%`,
-                top: `${20 + Math.random() * 60}%`,
-                animationDelay: `${Math.random() * 4}s`,
-                animationDuration: `${3 + Math.random() * 2}s`,
-                fontSize: `${0.8 + Math.random() * 1}rem`
-              }}
-            >
-              💕
-            </div>
-          ))}
-        </div>
-      </div>
-      {/* Оверлей для лучшей читаемости с мягкой анимацией */}
-      <div className="absolute inset-0 bg-amber-50/20 backdrop-blur-[0.5px] animate-gentle-glow"></div>
+      }}></div>
+      {/* Vintage overlay for better text readability */}
+      <div className="absolute inset-0 bg-amber-50/20 backdrop-blur-[0.5px]"></div>
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex justify-center overflow-hidden items-center" style={{ minHeight: 'calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom))' }}>
