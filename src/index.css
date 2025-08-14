@@ -103,3 +103,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Делаем логотип poehali.dev очень маленьким */
+[id*="poehali"],
+[class*="poehali"],
+div[style*="position: fixed"][style*="bottom"][style*="right"] {
+  transform: scale(0.3) !important;
+  opacity: 0.5 !important;
+}
