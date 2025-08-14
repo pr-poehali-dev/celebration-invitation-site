@@ -9,7 +9,8 @@ const CountdownTimer = () => {
 
   useEffect(() => {
     // Дата свадьбы: 21 сентября 2025, 19:00
-    const weddingDate = new Date('2025-09-21T19:00:00');
+    // Используем более надёжный формат даты для iOS Safari
+    const weddingDate = new Date(2025, 8, 21, 19, 0, 0); // месяц 8 = сентябрь (0-индексированный)
 
     const calculateTimeLeft = () => {
       const now = new Date();

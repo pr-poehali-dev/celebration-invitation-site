@@ -101,6 +101,35 @@
 
   body {
     @apply bg-background text-foreground;
+    /* Исправления для iOS Safari */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  /* Исправления для всех браузеров */
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Исправления для iOS Safari - убираем подсветку при тапе */
+  * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  /* Исправления для input и button элементов на iOS */
+  input,
+  button,
+  textarea,
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
   }
 }
 
@@ -110,4 +139,57 @@
 div[style*="position: fixed"][style*="bottom"][style*="right"] {
   transform: scale(0.3) !important;
   opacity: 0.5 !important;
+}
+
+/* Исправления для iOS Safari - фиксированный фон */
+@supports not (background-attachment: fixed) {
+  .min-h-screen {
+    background-attachment: scroll !important;
+  }
+}
+
+/* Исправления viewport единиц для iOS Safari */
+@supports (height: 100dvh) {
+  .min-h-screen {
+    min-height: 100dvh !important;
+  }
+}
+
+/* Исправления hover эффектов для touch-устройств */
+@media (hover: none) and (pointer: coarse) {
+  .hover\:border-slate-300:hover {
+    border-color: inherit !important;
+  }
+  .hover\:shadow-2xl:hover {
+    box-shadow: inherit !important;
+  }
+  .hover\:bg-green-800:hover {
+    background-color: inherit !important;
+  }
+  .hover\:text-white:hover {
+    color: inherit !important;
+  }
+  .hover\:scale-105:hover {
+    transform: inherit !important;
+  }
+}
+
+/* Улучшения для backdrop-filter на iOS */
+@supports not (backdrop-filter: blur()) {
+  .backdrop-blur-\[0\.5px\] {
+    background-color: rgba(251, 191, 36, 0.3) !important;
+  }
+  .backdrop-blur-md {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+}
+
+/* Безопасные области для iOS */
+@supports (padding: max(0px)) {
+  body {
+    padding-top: max(0px, env(safe-area-inset-top));
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
 }

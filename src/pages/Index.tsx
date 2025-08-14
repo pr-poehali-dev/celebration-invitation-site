@@ -22,18 +22,20 @@ const Index = () => {
 
   return (
     <div className="min-h-screen relative" style={{
-      fontFamily: "'Tinos', serif",
-      backgroundImage: `url('https://cdn.poehali.dev/files/0ab15cd7-a95a-44a4-b265-1ce743a12588.png')`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed'
+      fontFamily: "'Tinos', serif"
     }}>
+      {/* Фиксированный фон для всех браузеров, включая iOS Safari */}
+      <div className="fixed inset-0 -z-10" style={{
+        backgroundImage: `url('https://cdn.poehali.dev/files/0ab15cd7-a95a-44a4-b265-1ce743a12588.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}></div>
       {/* Vintage overlay for better text readability */}
       <div className="absolute inset-0 bg-amber-50/20 backdrop-blur-[0.5px]"></div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex justify-center overflow-hidden items-center">
+      <section className="relative min-h-screen flex justify-center overflow-hidden items-center" style={{ minHeight: 'calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom))' }}>
         <div className="relative z-10 text-center">
           <div className="flex flex-col items-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-wider text-black"
